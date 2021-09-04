@@ -1,0 +1,23 @@
+/* servicios */
+.servicios-adm{
+    padding-top: 150px;
+    font-family: 'Noto Serif', serif;
+    font-size: $font-size-titulos;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.servicios-sect{ 
+    color: $color-primario;
+    display: inline-grid;
+    
+}
+.texto-servicio{
+    padding: 10px;
+    display:flex;
+    display: inline-block;
+    align-items:center;
+}
+.navegacion-servicio{
+    margin: auto;
+}

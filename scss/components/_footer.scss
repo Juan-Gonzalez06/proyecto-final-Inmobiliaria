@@ -1,0 +1,40 @@
+/* footer*/
+.footer{
+    padding: 20px;
+    margin: 20px;
+    border: 5px;
+    display: flex;
+    justify-content: space-between; 
+}
+.logo-footer{
+    display: flex;
+    align-items: flex-end;
+}
+.titulo-footer{
+    background-color: #ea899a;
+    border-radius: 16px;
+}
+
+.imag-logo-footer{
+    padding: 5px;
+    border: 2px;
+    margin: 5px;
+    width: 40%;
+   justify-content: end;
+ 
+}
+li{
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none; 
+}
+
+p{
+    font-family: 'Noto Serif', serif;
+    color: black;
+    font-size: 20px;
+}
+ 
+/* fin footer */

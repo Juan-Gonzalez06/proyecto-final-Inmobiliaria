@@ -1,0 +1,15 @@
+/* todas las secciones */
+.titulo-secciones{
+    padding-top: 120px;
+    color: var(--colorPrimario);
+    text-align-last: center;
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+}
+
+.propiedades-secciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}

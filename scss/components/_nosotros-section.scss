@@ -1,0 +1,19 @@
+/* nosotros */
+   @import "../base/variables";
+
+.section-nosotros{
+    padding: 50px;
+    margin: 20px;
+    border: 10px;
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+
+    .nosotros-titulos{
+        font-size: 40px;
+        color: $color-primario;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+    }
+}

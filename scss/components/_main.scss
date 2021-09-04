@@ -1,0 +1,95 @@
+@import "../base/variables";
+
+/*main */
+
+.titulo-secundario{ 
+    padding: 40px;
+    color: $color-primario;
+    text-align-last: center;
+    font-family: 'Noto Serif', serif;
+    font-size: $font-size-titulos ;
+}
+
+.section-img{
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: #ea899a;
+    width: 200px; height: 200px;
+}
+.section-destacadas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.menu-localidades{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sub-localidades{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    flex-direction: column;   
+}
+
+.localidades{
+    color: $color-prop;
+    text-decoration: none;
+    font-family: 'Noto Serif', serif;
+    font-size: 30px;
+    padding: 7px;
+}
+
+.sub-localidades :hover{ 
+    transition: all 0.8s; 
+    transform: rotate(360deg) scale(2);
+    transition: 1s;  
+}
+
+.localidades:hover {
+   color: $color-primario;
+   background-color:#ea899a;
+   border-radius: 20px; 
+}
+
+/* section destacada transition */
+.art-destacadas{
+    padding: 5px;
+    border: 5px;
+    transition: 0.8s; 
+}
+
+.art-destacadas:hover{
+    transform: scale(1.2);
+}
+
+/* section alquiler y ventas con Grid */
+.contenedor{
+    padding: 5px;
+    display: grid;
+    grid-template-rows: repeat(2, 0.5fr);
+    grid-template-columns: repeat(4, 1fr);
+    border: 2px solid black;
+    grid-gap: 10px; 
+}
+
+.grid-items{
+    border: 1px solid black;
+    grid-column-gap: 15px;  
+}
+
+.img-alq{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* fin section alq. y venta grid*/
+
+
+
