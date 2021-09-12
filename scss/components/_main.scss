@@ -79,8 +79,10 @@
 }
 
 .grid-items{
+    width: 80%;
+    height: 80%;
     border: 1px solid black;
-    grid-column-gap: 15px;  
+    grid-column-gap: 15px; 
 }
 
 .img-alq{

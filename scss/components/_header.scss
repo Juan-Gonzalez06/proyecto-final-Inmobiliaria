@@ -9,12 +9,13 @@
 body {
     background-color: #f4c3ca;
 }
+
   
 .titulo-principal {
     color: $color-primario;
     border-radius: 18px;
-    font-size: 90px;
-    fonts: $fonts-open-sans;
+    font-size: 60px;
+    font-family: $fonts-open-sans;
     display: flex;
     justify-content: flex-start;
     padding-left: 40px;
