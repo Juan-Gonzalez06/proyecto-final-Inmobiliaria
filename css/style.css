@@ -268,13 +268,14 @@ p {
 /* todas las secciones */
 .titulo-secciones {
   padding-top: 120px;
-  color: var(--colorPrimario);
+  color: #0000ff;
   text-align-last: center;
   font-family: "Noto Serif", serif;
   font-size: 20px;
 }
 
 .propiedades-secciones {
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
