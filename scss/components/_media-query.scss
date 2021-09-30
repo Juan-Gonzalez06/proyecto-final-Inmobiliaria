@@ -5,6 +5,8 @@
     
     .menu{
         display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
     .contenedor {
         display: flex;
@@ -28,6 +30,37 @@
         align-items: center;
         flex-wrap: wrap;
     }
+    .navegacion{
+        margin: 20px;
+        float: left;
+        border-radius: 18px;
+        display: flex;
+        justify-content: center;
+    }
+    .logo-header{
+        display: flex;
+    }
+    .sec-nav{
+        display: flex; 
+    }
+    .art-destacadas{
+        padding-left: 50px;
+   }
+    .menu-localidades{
+        display: none;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-left: 60p
+   }
+   .titulo-localidades{
+       display: none;
+   }
+   .logo-footer{
+        flex-wrap: wrap;
+        justify-content: center;
+   }
+   
+   
 } 
 
 @media only screen and ( max-width: 768px) {

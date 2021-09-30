@@ -10,7 +10,6 @@ body {
 
 .titulo-principal {
   color: #0000ff;
-  border-radius: 18px;
   font-size: 60px;
   font-family: font-family "Open Sans", sans-serif;
   display: flex;
@@ -86,13 +85,12 @@ body {
   font-size: 40px;
 }
 
-.section-img {
-  padding: 5px;
-  margin: 10px;
-  border: 1px solid black;
-  background-color: #ea899a;
-  width: 200px;
-  height: 200px;
+.titulo-localidades {
+  padding: 40px;
+  color: #0000ff;
+  text-align-last: center;
+  font-family: "Noto Serif", serif;
+  font-size: 40px;
 }
 
 .section-destacadas {
@@ -136,37 +134,27 @@ body {
   border-radius: 20px;
 }
 
-/* section destacada transition */
-.art-destacadas {
-  padding: 5px;
-  border: 5px;
-  transition: 0.8s;
-}
-
-.art-destacadas:hover {
-  transform: scale(1.2);
-}
-
 /* section alquiler y ventas con Grid */
 .contenedor {
-  padding: 5px;
+  padding-left: 4%;
   display: grid;
   grid-template-rows: repeat(2, 0.5fr);
   grid-template-columns: repeat(4, 1fr);
-  border: 2px solid black;
   grid-gap: 10px;
 }
 
 .grid-items {
   width: 80%;
   height: 80%;
-  border: 1px solid black;
   grid-column-gap: 15px;
+  padding: 10px;
 }
 
 .img-alq {
   width: 100%;
   height: 100%;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 3px #9c7d82;
 }
 
 /* fin section alq. y venta grid*/
@@ -282,6 +270,26 @@ p {
   flex-wrap: wrap;
 }
 
+.section-img {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  box-shadow: 3px 3px 3px 3px #9c7d82;
+  border-radius: 20px;
+}
+
+/* section destacada transition */
+.art-destacadas {
+  margin: 20px;
+  padding: 5px;
+  border: 5px;
+  transition: 0.8s;
+}
+
+.art-destacadas:hover {
+  transform: scale(1.2);
+}
+
 @media only screen and (max-width: 576px) {
   * {
     background-color: lightgoldenrodyellow;
@@ -289,6 +297,8 @@ p {
 
   .menu {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 
   .contenedor {
@@ -313,6 +323,42 @@ p {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+  }
+
+  .navegacion {
+    margin: 20px;
+    float: left;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo-header {
+    display: flex;
+  }
+
+  .sec-nav {
+    display: flex;
+  }
+
+  .art-destacadas {
+    padding-left: 50px;
+  }
+
+  .menu-localidades {
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 60p;
+  }
+
+  .titulo-localidades {
+    display: none;
+  }
+
+  .logo-footer {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 @media only screen and (max-width: 768px) {
